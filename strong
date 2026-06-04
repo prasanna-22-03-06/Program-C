@@ -1,0 +1,22 @@
+#include <stdio.h>
+int main(){
+    int a,b,r,sum=0,fac,i;
+    printf("Enter a number: ");
+    scanf("%d", &a);
+    b=a;
+    while(b!=0) {
+        r=b%10;
+        fac=1;
+        for (i = 1;i<=rem;i++){
+            fac=fac*i;
+        }
+        sum=sum+fac;
+        b=b/10;
+    }
+    if(sum==n){
+        printf("it is a Strong Number");
+    }
+    else{
+        printf("it is not a Strong Number");
+    }
+}
