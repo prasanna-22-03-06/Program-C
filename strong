@@ -7,13 +7,13 @@ int main(){
     while(b!=0) {
         r=b%10;
         fac=1;
-        for (i = 1;i<=rem;i++){
+        for (i = 1;i<=b;i++){
             fac=fac*i;
         }
         sum=sum+fac;
         b=b/10;
     }
-    if(sum==n){
+    if(sum==a){
         printf("it is a Strong Number");
     }
     else{
