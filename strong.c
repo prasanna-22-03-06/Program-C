@@ -6,6 +6,7 @@ int main(){
     while(a!=0){
         r=a%10;
         f=1;
+        c=0;
         for(i=1;i<=r;i++){
             f=f*i;
         }
